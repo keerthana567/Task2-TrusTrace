@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body onload="posts()">
+
+       <div class="createClass">
+        <form method="GET" action="" id="form">
+         <div>
+            <h2 style="text-align: center;">Create a Post</h2>
+          </div>
+         <div class="formfield">
+            <label>Userid:</label>
+            <input type="text" placeholder="User Id" name="userid" id="userId" onkeypress="return isNumberKey('evt');" class="form-control">
+          </div>
+          <div class="formfield">
+            <label>Title:</label>
+            <input type="text" placeholder="Title" name="title" id="title" class="form-control">
+          </div>
+          <div class="formfield">
+            <label>Body:</label>
+            <textarea type="text" name="body" placeholder="Body Content" id="body" class="form-control">
+          </textarea>
+          </div>
+         
+          <input type="button" value="Post" id="btn"/>
+        </form>
+      </div> 
+      <div id="posts"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

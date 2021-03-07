@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monda", sans-serif;
+}
+
+body {
+	
+    /* background-image: linear-gradient(to right, #3494E6, #EC6EAD);  */
+    background-image: linear-gradient(to right, #F0F8FF, #778899); 
+}
+
+.createClass {
+ position:absolute; 
+ left:340px; 
+ top:100px;
+    width: 50vw;
+  /* background-color :black; */
+  font-size: 2rem;
+  /* position: fixed; */
+  center: 5px;
+  
+  /* opacity: 0.7; */
+}
+
+.formfield {
+  padding: 5px;
+  width: 100%;
+  border: none;
+}
+.formfield > input,
+textarea {
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  border: none;
+}
+
+textarea {
+  height: 15%;
+}
+
+#btn {
+  width: 100%;
+  height: 50px;
+  margin: 5% 0;
+  border-radius: 150px;
+  border: none;
+  background-color: grey;
+  font-size: 1rem;
+}
+
+#posts {
+  margin-top: 15vh;
+}
+
+.card {
+	
+	position:relative;  
+	right: -10%;
+	top:550px;
+  margin: 10px 5px;
+  background-color: black;
+  border-radius: 9px;
+  padding: 10px;
+  width: 80vw;
+}
+
+.card > * {
+  padding: 10px;
+  background-color: #fa4d6b;
+  border-radius: 10px;
+  margin: 3px;
+  color: white;
+}
+
+span {
+  color: black;
+}
+
+.button {
+  background-color: #5c0615;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.6;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+button {
+  padding: 5px;
+  width: 40%;
+  border-radius: 9px;
+}
+
+#delete:hover {
+  background-color: #ff002c;
+  font-weight: 500;
+}
+
+#comment:hover {
+  background-color: #0400ff;
+}
